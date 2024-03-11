@@ -1,0 +1,6 @@
+name: code-interpreter
+description: I am a tool that can run python code
+arg: code: The code to run
+
+#!/bin/bash
+printf '%b\n' "${code}" | python3 -i -
