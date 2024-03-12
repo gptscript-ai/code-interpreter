@@ -1,5 +1,5 @@
 name: code-interpreter
-description: I am a tool that can run python code
+description: I am a tool that can run python code. I only have access to the python standard library.
 arg: code: The code to run
 
 #!/bin/bash
